@@ -32,7 +32,7 @@ import { useThemeStore } from "@/store";
 import { useTheme } from "next-themes";
 import { themes } from "@/config/thems";
 
-const AdminDashboardPage = ({ trans }) => {
+const AdminDashboardPage = () => {
   // Example school ID (replace with dynamic retrieval based on logged-in admin)
   const currentSchoolId = 1;
 
