@@ -25,7 +25,7 @@ import { ScrollArea } from "@/components/ui/scroll-area";
 
 const ITEMS_PER_PAGE = 15;
 
-export const AttendancePage = ({ managerEstablishmentId = 1 }) => {
+export default function AttendancePage({ managerEstablishmentId = 1 }) {
     const [allAttendance, setAllAttendance] = useState([]);
     const [filteredAttendance, setFilteredAttendance] = useState([]);
     const [students, setStudents] = useState([]);
@@ -246,4 +246,4 @@ export const AttendancePage = ({ managerEstablishmentId = 1 }) => {
     );
 };
 
-export default AttendancePage;
+ 
