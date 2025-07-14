@@ -8,7 +8,7 @@ import { cn } from '@/lib/utils';
 import toast from 'react-hot-toast';
 import { ModalStop } from '@/components/models/ModalStop';
 import StopCard from './StopCard';
-import stopService from '@/services/stopservice.jsx';
+import stopService from '@/services/stopService.jsx';
 import { fetchUserEstablishments } from '@/services/etablissements';
 
 // Shadcn/ui components
