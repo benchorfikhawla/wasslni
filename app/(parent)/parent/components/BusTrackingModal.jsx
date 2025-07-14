@@ -12,7 +12,7 @@ import toast from 'react-hot-toast';
 import dynamic from 'next/dynamic';
 import { Icon } from '@iconify/react';
 
-import parentService from '@/services/parentService';
+import parentService from '@/services/parentservice.jsx';
 
 // Chargement dynamique (pour éviter SSR avec leaflet)
 const BusTrackingMap = dynamic(

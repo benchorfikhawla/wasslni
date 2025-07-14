@@ -5,7 +5,7 @@ import { Card, CardContent, CardHeader, CardTitle, CardDescription } from "@/com
 import { Button } from "@/components/ui/button";
 import { Icon } from "@iconify/react";
 import toast from 'react-hot-toast';
-import parentService from '@/services/parentService';
+import parentService from '@/services/parentservice.jsx';
 import { MapContainer, TileLayer, Marker, Popup } from 'react-leaflet';
 import 'leaflet/dist/leaflet.css';
 
