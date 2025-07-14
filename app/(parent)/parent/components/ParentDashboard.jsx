@@ -20,7 +20,7 @@ import { BusTrackingModal } from './BusTrackingModal';
 import { ReportAttendanceModal } from './ReportAttendanceModal';
 import { ReportConcernModal } from './ReportConcernModal';
 
-export const ParentDashboard = () => {
+export default function ParentDashboard() {
   const [children, setChildren] = useState([]);
   const [selectedChildId, setSelectedChildId] = useState(null);
   const [childDailyTripDetails, setChildDailyTripDetails] = useState({});

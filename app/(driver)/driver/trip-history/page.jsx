@@ -23,7 +23,7 @@ import { Separator } from "@/components/ui/separator";
 
 const ITEMS_PER_PAGE = 10;
 
-export const TripHistoryPage = ({ onGoBack }) => {
+const TripHistoryPage = ({ onGoBack }) => {
   const [allDriverTrips, setAllDriverTrips] = useState([]);
   const [filteredTrips, setFilteredTrips] = useState([]);
   const [searchTerm, setSearchTerm] = useState('');

@@ -36,7 +36,7 @@ L.Icon.Default.mergeOptions({
   shadowUrl: markerShadow.src,
 });
 
-export const DailyTripDetailsPage = () => {
+ const DailyTripDetailsPage = () => {
   const [dailyTrips, setDailyTrips] = useState([]);
   const [selectedTripId, setSelectedTripId] = useState(null);
   const [dailyTrip, setDailyTrip] = useState(null);

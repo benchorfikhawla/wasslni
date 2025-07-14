@@ -9,7 +9,7 @@ import toast from 'react-hot-toast';
 
 const MOCK_PARENT_ID = 5;
 
-export const ParentReportConcernPage = () => {
+const ParentReportConcernPage = () => {
   const [isConcernModalOpen, setIsConcernModalOpen] = useState(false);
 
   const handleConcernReported = () => {

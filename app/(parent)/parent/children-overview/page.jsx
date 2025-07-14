@@ -11,7 +11,7 @@ import parentService from '@/services/parentservice.jsx';
 
 const ITEMS_PER_PAGE = 3;
 
-export const ChildrenOverviewPage = () => {
+const ChildrenOverviewPage = () => {
   const router = useRouter();
   const [childrenInfo, setChildrenInfo] = useState([]);
   const [loading, setLoading] = useState(false);

@@ -39,7 +39,7 @@ const BusTrackingMap = dynamic(
 const MOCK_PARENT_ID = 5;
 
 // ParentDashboardPage now expects 'onNavigate' prop from its layout
-export const ParentDashboardPage = ({ onNavigate }) => {
+const ParentDashboardPage = () => {
   const [currentDemoData, setCurrentDemoData] = useState(demoData);
   const [parent, setParent] = useState(null);
   const [children, setChildren] = useState([]);

@@ -18,7 +18,7 @@ import toast from 'react-hot-toast';
 
 import { getUser } from '@/utils/auth'; // Assuming auth.js is the correct path for getUser
 
-export const ParentHelpPage = () => {
+const ParentHelpPage = () => {
   // Existing states
   const [childrenStudents, setChildrenStudents] = useState([]);
   const [associatedSchools, setAssociatedSchools] = useState([]);

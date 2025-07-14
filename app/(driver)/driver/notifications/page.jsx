@@ -8,7 +8,7 @@ import { Button } from '@/components/ui/button';
 import { Icon } from '@iconify/react';
 import { useToast } from '@/components/ui/use-toast';
 
-export const NotificationsPage = () => {
+const NotificationsPage = () => {
   const [notifications, setNotifications] = useState([]);
   const [loading, setLoading] = useState(true);
   const { toast } = useToast();
