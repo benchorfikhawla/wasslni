@@ -17,7 +17,7 @@ import { Card, CardHeader, CardTitle, CardContent, CardDescription } from '@/com
 
 const ITEMS_PER_PAGE = 6;
 
-export const StopsPage = () => {
+export default function StopsPage() {
   const [stops, setStops] = useState([]);
   const [filteredStops, setFilteredStops] = useState([]);
   const [isModalOpen, setIsModalOpen] = useState(false);
@@ -263,4 +263,3 @@ export const StopsPage = () => {
   );
 };
 
-export default StopsPage;
